@@ -7,7 +7,6 @@ export default function RandomColor() {
     const generateRandomHEX = () => {
         setTypeOfColor('hex')
         let hexColor = '#' + Math.ceil((Math.random() * 1000000))
-        console.log(hexColor)
         setColor(hexColor)
     }
     const generateRandomRGB = () => {
