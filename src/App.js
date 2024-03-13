@@ -9,6 +9,7 @@ import BreadCrumbs from './components/BreadCrumbs/BreadCrumbs'
 import BreadCrumb from './components/BreadCrumbs/BreadCrumbs'
 import menu from './components/BreadCrumbs/data'
 import ScrollIndicator from './components/Scroll/Scroll';
+import SearchAutoComplete from './components/SearchAutoComplete/SearchAutoComplete';
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}/> */}
       {/* <LoadMore/> */}
       {/* <BreadCrumbs menu={menu}/> */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+      <SearchAutoComplete/>
     </div>
   );
 }
