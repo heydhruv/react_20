@@ -10,6 +10,7 @@ import BreadCrumb from './components/BreadCrumbs/BreadCrumbs'
 import menu from './components/BreadCrumbs/data'
 import ScrollIndicator from './components/Scroll/Scroll';
 import SearchAutoComplete from './components/SearchAutoComplete/SearchAutoComplete';
+import TicTacToe from './components/Tic-Tac-Toe/TicTacToe'
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,8 @@ function App() {
       {/* <LoadMore/> */}
       {/* <BreadCrumbs menu={menu}/> */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
-      <SearchAutoComplete/>
+      {/* <SearchAutoComplete/> */}
+      <TicTacToe/>
     </div>
   );
 }
